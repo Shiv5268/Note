@@ -1,0 +1,51 @@
+.form {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 4px 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+}
+
+.title {
+    border: none;
+}
+
+.text-area {
+    height: 38px;
+    resize: none;
+    border: none;
+}
+
+.text-area:focus,
+.title:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.add {
+    position: absolute;
+    bottom: -22px;
+    right: 20px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.note {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e7e8e9;
+}
+
+.edit{
+    position: absolute;
+    font-size: 20px;
+    right:10px;
+    cursor: pointer;
+}
+button{
+    background-color: #fff;
+    border: none;
+    color:#4a4d50;
+}
